@@ -43,11 +43,11 @@ console.log(`lessThan100(100, 10) === false : ${lessThan100(100, 10) === false}`
 function getFormattedName(first_name, last_name, middle_name) {
     if (middle_name === undefined) {
         //console.log(first_name + " " + last_name); 
-        return(first_name + ' ' + last_name); 
+        return (first_name + ' ' + last_name); 
     }
     else {
         //console.log(first_name + " " + middle_name + " " + last_name); 
-        return(first_name + ' ' + middle_name + ' ' + last_name); 
+        return (first_name + ' ' + middle_name + ' ' + last_name); 
     }
 }
 console.log(
